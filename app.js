@@ -130,9 +130,7 @@ app.get("/:listTitle", function(req,res){
 });
 
 
-app.get("/about", function(req, res){
-  res.render("about");
-});
+
 
 let port = process.env.PORT;
 if (port == null || port == "") {
