@@ -1,8 +1,8 @@
 html {
-  background-color: #E4E9FD;
-  background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
-  min-height: 1000px;
+  background-image: #9e8fad;
+  min-height: 100%;
   font-family: 'helvetica neue';
+  
 }
 
 h1 {
@@ -13,7 +13,7 @@ h1 {
 body {
   background-color: transparent;
   background-image: -webkit-linear-gradient(65deg, #9e8fad 50%, #E4E9FD 50%);
-  min-height: 1000px;
+  min-height: 100%;
 }
 
 .box {
@@ -99,8 +99,11 @@ footer {
   color: white;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-item {
   color: #00204a
 }
+
